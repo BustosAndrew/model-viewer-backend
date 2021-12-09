@@ -25,6 +25,6 @@ app.get("/credentials", (req, res) => {
     });
 });
 
-// app.listen(port, () => {
-//     console.log(`express listening at http://localhost:${port}`);
-// });
+app.listen(port, () => {
+    console.log(`express listening at http://localhost:${port}`);
+});
